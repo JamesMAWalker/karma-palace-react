@@ -1,0 +1,48 @@
+.signin {
+  grid-row: main-start / main-end;
+  grid-column: 1 / -1;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(9, 68, 65);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__header {
+    color: white;
+    font-size: 7rem;
+    font-weight: 100;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  &__input-container {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    input,
+    button {
+      height: 5rem;
+      font-size: 2rem;
+      padding: .5rem;
+      color:  rgb(9, 68, 65);
+    }
+    
+    button {
+      width: 5rem;
+      background-color: white;
+      border: 1px solid  rgb(9, 68, 65);
+    }
+  }
+}
